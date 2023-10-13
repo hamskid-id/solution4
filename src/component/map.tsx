@@ -1,68 +1,27 @@
-import GoogleMapReact from 'google-map-react';
+import { MapContainer, TileLayer, Marker,Popup } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css';
 
-type compo ={
-    text:string
-}
-const AnyReactComponent = ({ text }:compo) => <div>{text}</div>;
 export const Map =()=>{
-    const defaultProps = {
-        center: {
-          lat: 10.99835602,
-          lng: 77.01502627
-        },
-        zoom: 11
-      };
 
     return(
-        <div style={{ height: '50vh', width: '100%' }}>
-            <GoogleMapReact
-                bootstrapURLKeys={{ key: "" }}
-                defaultCenter={defaultProps.center}
-                defaultZoom={defaultProps.zoom}
+        <div className="h-[50vh] w-full">
+            <MapContainer 
+                center={[51.505, -0.09]} 
+                    zoom={13} 
+                    scrollWheelZoom={false}
+                    style={{ width: "100%", height: "100%" }}
             >
-                <AnyReactComponent
-                    text="My Marker"
+                <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-            </GoogleMapReact>
-    </div>
+                <Marker position={[51.505, -0.09]}>
+                    <Popup>
+                    A pretty CSS3 popup. <br /> Easily customizable.
+                    </Popup>
+                </Marker>
+                </MapContainer>
+        </div>
     )
 }
 
-// import { GoogleMap,Marker, useLoadScript } from "@react-google-maps/api";
-// import { useMemo } from "react";
-
-// // type compo ={
-// //     text:string
-// // }
-// // const AnyReactComponent = ({ text }:compo) => <div>{text}</div>;
-// export const Map =()=>{
-//     const { isLoaded } = useLoadScript({
-//         googleMapsApiKey: "AIzaSyBevcNwrNmYW0oNlNHD29LvfngxxvRsUeQ",
-//       });
-
-//     const center = useMemo(() => ({ lat: 18.52043, lng: 73.856743 }), []);
-
-//     // const defaultProps = {
-//     //     center: {
-//     //       lat: 10.99835602,
-//     //       lng: 77.01502627
-//     //     },
-//     //     zoom: 11
-//     //   };
-
-//     return(
-//         <div style={{ height: '50vh', width: '100%' }}>
-//             {!isLoaded ? (
-//         <h1>Loading...</h1>
-//       ) : (
-//         <GoogleMap
-//           mapContainerClassName="map-container"
-//           center={center}
-//           zoom={10}
-//         >
-//         <Marker position={{ lat: 18.52043, lng: 73.856743 }} />
-//         </GoogleMap>
-//       )}
-//     </div>
-//     )
-// }

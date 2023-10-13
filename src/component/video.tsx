@@ -14,7 +14,7 @@ export const Video =()=>{
                 />
                 <Text
                     style="c-grey text-lg text-center mb-4"
-                    value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+                    value="No matter what your marketing needs are, we can help you achieve your goals."
                 />
                 <div className="video-img-container py-40">
                     <AiOutlinePlayCircle 

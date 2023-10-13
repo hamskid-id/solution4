@@ -12,8 +12,8 @@ export const WhoWeAre =()=>{
                         value="We are Professionals"
                     />
                     <Text
-                        style="c-grey text-lg mb-4"
-                        value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, eiusmod tempor incididunt ut labore."
+                        style="c-grey text-lg mb-8"
+                        value="When it comes to marketing, experience counts. We have a team of professionals with years of experience in the industry. We know what works and what doesn't, and we'll use our knowledge to help you achieve your goals. We're also constantly learning and evolving, so we're always up-to-date on the latest marketing trends and best practices."
                     />
                 </div>
                 <div className="flex wrap mt-2">
@@ -25,11 +25,11 @@ export const WhoWeAre =()=>{
                         />
                         <Text
                             style="c-grey text-lg"
-                            value="Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod."
+                            value="We'll help you develop short, snappy marketing plans that are easy to execute and deliver results. No fluff, just actionable plans that will get you results."
                         />
                     </div>
                 </div>
-                <div className="flex wrap mt-4">
+                <div className="flex wrap mt-8">
                     <div className="me-4"><AiOutlineReload color="#5758e0" size="3rem"/></div>
                     <div>
                         <Text
@@ -38,7 +38,7 @@ export const WhoWeAre =()=>{
                         />
                         <Text
                             style="c-grey text-lg"
-                            value="Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod."
+                            value="Sometimes, you need a marketing strategy fast. We can provide you with prompt strategies that are easy to implement and will make an impact. No matter what your time frame is, we'll work with you to create a plan that will get the job done."
                         />
                     </div>
                 </div>

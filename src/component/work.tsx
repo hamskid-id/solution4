@@ -13,27 +13,27 @@ export const Work =()=>{
                     {
                         icon:<AiOutlineSend color={activeCard ==0?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"Digital Marketting",
-                        text:"Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+                        text:"We can help you create an effective digital marketing strategy that includes social media marketing, email marketing, search engine optimization (SEO), pay-per-click (PPC) advertising, and more."
                     },{
                         icon:<AiOutlineDollarCircle color={activeCard ==1?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"Trade Shows",
-                        text:"Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+                        text:"A great way to connect with potential customers and promote your business. We can help you plan and execute a successful trade show, from developing a strategy to creating marketing materials and follow-up campaigns."
                     },{
                         icon:<AiOutlineRocket color={activeCard ==2?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"Branding",
-                        text:"Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+                        text:"We'll work with you to create a brand identity that reflects your business's values and personality. We'll also help you develop a cohesive brand message that will resonate with your target audience. We can also help you create branded materials, including logos, website design, and promotional materials."
                     },{
                         icon:<AiOutlineForm color={activeCard ==3?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"Content Creation",
-                        text:"Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+                        text:"Content is king when it comes to marketing, and we can help you create high-quality content that will engage your audience and drive results."
                     },{
                         icon:<AiOutlineMonitor color={activeCard ==4?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"Graphics Design",
-                        text:"Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+                        text:"Creating a style guide and design templates that you can use for all of your marketing materials. From brochures and business cards to website and social media graphics, we'll make sure your brand looks great. "
                     },{
                         icon:<AiOutlineShoppingCart color={activeCard ==1?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"Media Buying",
-                        text:"Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+                        text:"We can help you reach your target audience through effective media buying. We'll work with you to create a media plan that will target your ideal customers and get the best return on your investment."
                     }
                 ].map((arr,index)=>{
                     const{
@@ -57,11 +57,11 @@ export const Work =()=>{
                                 >
                                 {icon}
                                 <Text
-                                    style="text-white text-2xl font-semibold mb-4 text-center"
+                                    style="text-white text-2xl font-semibold text-center mb-2"
                                     value={title}
                                 />
                                 <Text
-                                    style={`${activeCard ==index?"text-white":"c-grey"} text-center text-lg mb-4`}
+                                    style={`${activeCard ==index?"text-white":"c-grey"} text-center text-lg mb-2`}
                                     value={text}
                                 />
                                 <div className="w-fit border rounded-full p-2">

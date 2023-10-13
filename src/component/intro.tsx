@@ -14,7 +14,7 @@ export const IntroSect =()=>{
                 />
                 <Text
                     style="text-2xl mb-12 c-grey text-center"
-                    value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    value="Dedicated to helping businesses of all sizes succeed. We offer a wide range of services, from branding and content creation to media buying and event planning. No matter what your marketing needs are, we can help you achieve your goals. "
                 />
                 <div className="flex px-4 py-2 bg-blue cursor-pointer w-fit m-auto">
                     <div className="me-2"><AiOutlineSend color="white" size="1.4rem"/></div>

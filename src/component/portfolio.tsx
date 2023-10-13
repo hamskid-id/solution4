@@ -13,7 +13,7 @@ export const Portfolio =()=>{
             />
             <Text
                 style="c-grey text-lg text-center mb-4"
-                value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                value="Our portfolio is a testament to our success. We've worked with a variety of clients from different industries, and we've helped them achieve their marketing goals. We're proud of the work we've done, and we'd love to show you how we can help you too. We're happy to provide you with references and case studies to back up our claims."
             />
             <div className="p-10 grid lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 xxs:grid-cols-1 gap-8 m-auto">
                 {
@@ -28,7 +28,7 @@ export const Portfolio =()=>{
                     ].map((port,index)=>{
                         return(
                             <div 
-                                className="relative work-card"
+                                className="relative work-card h-[24rem]"
                                 key={index}
                                 onMouseOver={()=>setActiveCard(index)}
                                 onMouseLeave={()=>setActiveCard(null)}

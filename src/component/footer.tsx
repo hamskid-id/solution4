@@ -6,11 +6,11 @@ export const Footer =()=>{
             <div className="flex justify-between flex-wrap items-center">
                 <Text
                     style="c-grey text-lg"
-                    value="Lorem ipsum dolor sit amet consectetur adipisicing tempor."
+                    value="Dedicated to helping businesses of all sizes succeed."
                 />
                 <Text
                     style="c-grey text-lg"
-                    value="© 2020 SolutionM4"
+                    value="© 2020 Mega Sprint Limited"
                 />
             </div>
         </div>

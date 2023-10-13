@@ -3,7 +3,7 @@ import { Text } from "./text"
 export const Contact =()=>{
     return(
         <div className=" lg:px-20 xl:px-20 md:px-20 sm:px-20 xs:px-4 xxs:px-4 xxxs:px-4  py-20 grid lg:grid-cols-2 xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 xxs:grid-cols-1 gap-8 m-auto">
-            <div className="flex flex-col items-start">
+            <div className="flex flex-col items-start lg:order-first md:order-first xl:order-first xs:order-last xxs:order-last xxxs:order-last">
                 <div className="coloredLine mb-4"></div>
                 <div>
                     <Text
@@ -12,7 +12,7 @@ export const Contact =()=>{
                     />
                     <Text
                         style="c-grey text-lg mb-4"
-                        value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, eiusmod tempor incididunt ut labore."
+                        value="We would love to chat with you about how we  can help you achieve your marketing goals.."
                     />
                 </div>
                 <form 
@@ -69,7 +69,7 @@ export const Contact =()=>{
                     </div>
                     <div>
                         <button 
-                            type="button"
+                            type="submit"
                             data-te-ripple-init
                             data-te-ripple-color="light"
                             className="bg-gradient text-white text-sm p-4 rounded mt-4 inline-block rounded text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"

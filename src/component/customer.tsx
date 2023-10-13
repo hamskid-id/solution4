@@ -16,8 +16,8 @@ export const CustomerTestimony =()=>{
                 value="Customer Testimonials"
             />
             <Text
-                 style="c-grey text-lg text-center mb-4"
-                value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+                 style="c-grey text-4xl text-center mb-8"
+                value="What our beneficiaries say about us"
             />
              <div className="grid lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 xxs:grid-cols-1 gap-4 place-items-center place-content-center " >
                 {
@@ -25,15 +25,15 @@ export const CustomerTestimony =()=>{
                         {
                             name:"Marie Jordan",
                             img:"https://mobirise.com/extensions/solutionm4/marketingsolution/assets/images/face1.jpg",
-                            info:"Lorem ipsum dolor sit amet, consectetur adipiscing."
+                            info:"I'm so glad I found Mega Sprint Limited! They helped me revamp my website, and it looks amazing. They were professional, responsive, and they really understood my needs. I highly recommend them to anyone looking for a marketing solution."
                         },{
                             name:"Ann Brown",
                             img:"https://mobirise.com/extensions/solutionm4/marketingsolution/assets/images/face2.jpg",
-                            info:"Lorem ipsum dolor sit amet, consectetur adipiscing."
+                            info:"I was feeling really overwhelmed by all the different marketing options out there, but Mega Sprint Limited helped me cut through the noise and figure out what would work best for my business. They were patient and took the time to answer all of my questions. I'm very happy with the results so far!"
                         },{
                             name:"Andrew Bill",
                             img:"https://mobirise.com/extensions/solutionm4/marketingsolution/assets/images/face3.jpg",
-                            info:"Lorem ipsum dolor sit amet, consectetur adipiscing."
+                            info:"Working with Mega Sprint Limited has been a breath of fresh air. I was so stressed out about marketing my business, but they've made it easy and fun. They're always available to answer my questions and help me out. I've seen a real increase in sales since I started working with them. I can't recommend them highly enough!"
                         }
                         // ,{
 
@@ -52,7 +52,7 @@ export const CustomerTestimony =()=>{
                         return(
                             <div 
                                 key={index}
-                                className="mb-2 mid-dark p-8 rounded-md md:m-2 lg:m-2 xl:m-2 sm:mx-auto xs:mx-auto xxs:mx-auto flex flex-col justify-between items-center m-auto place-self-center">
+                                className="mb-2 mid-dark p-8 rounded-md md:m-2 lg:m-2 xl:m-2 sm:mx-auto xs:mx-auto xxs:mx-auto flex flex-col justify-between h-full items-center m-auto place-self-center">
                                 <div className="w-16 mb-3">
                                     <img 
                                         src={img}
@@ -66,13 +66,15 @@ export const CustomerTestimony =()=>{
                                         value={name}
                                     />
                                     <Text
-                                        style="text-center c-grey mb-4 text-lg"
+                                        style="text-center c-grey mb-4 text-sm"
                                         value={info}
                                     />
                                 </div>
                                 <ul 
                                     className="my-1 flex list-none gap-1 p-0" 
                                     data-te-rating-init
+                                    data-te-readonly="true"
+                                    data-te-value="5"
                                 >
                                     <li>
                                         <span

@@ -19,7 +19,7 @@ export const AboutUs =()=>{
                     />
                     <Text
                         style="c-grey text-lg"
-                        value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus leo et diam fermentum ullamcorper. Nulla venenatis nibh sollicitudin tincidunt gravida. Nam convallis justo et ligula luctus suscipit. Etiam eu nisi turpis. Donec sollicitudin accumsan quam, rhoncus sagittis metus semper quis. Praesent convallis mauris sed ipsum lobortis facilisis. Nulla cursus sem non nunc sagittis, a volutpat mauris lobortis. Nulla ut feugiat tellus. Nam dictum nisi nec scelerisque auctor"
+                        value={`Marketing Solution Agency is  "Your one-stop shop for all your marketing needs." "Elevate your business with our marketing solutions." "Your success is our success.Our team is passionate about helping businesses succeed." "We're dedicated to providing the best possible service." "Our mission is to make marketing simple and effective." Services: "Grow your business with our marketing services." "We'll take your marketing to the next level." "Don't do it alone - let us help you achieve your goals."`}
                     />
                 </div>
             </div>
