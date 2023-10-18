@@ -16,24 +16,24 @@ export const Work =()=>{
                         text:"We can help you create an effective digital marketing strategy that includes social media marketing, email marketing, search engine optimization (SEO), pay-per-click (PPC) advertising, and more."
                     },{
                         icon:<AiOutlineDollarCircle color={activeCard ==1?"white":"#5758e0"} size="3rem" className="mb-4"/>,
-                        title:"Trade Shows",
-                        text:"A great way to connect with potential customers and promote your business. We can help you plan and execute a successful trade show, from developing a strategy to creating marketing materials and follow-up campaigns."
+                        title:"Introduction to Computer Programing training programmes",
+                        text:"The course covers a variety of topics, including algorithms, data structures, and programming languages. It also includes hands-on exercises and projects, so that participants can put their new skills to the test."
                     },{
                         icon:<AiOutlineRocket color={activeCard ==2?"white":"#5758e0"} size="3rem" className="mb-4"/>,
-                        title:"Branding",
-                        text:"We'll work with you to create a brand identity that reflects your business's values and personality. We'll also help you develop a cohesive brand message that will resonate with your target audience. We can also help you create branded materials, including logos, website design, and promotional materials."
+                        title:"Database Services",
+                        text:", the company's experts work with clients to develop, implement, and manage database systems that meet their specific needs."
                     },{
                         icon:<AiOutlineForm color={activeCard ==3?"white":"#5758e0"} size="3rem" className="mb-4"/>,
-                        title:"Content Creation",
-                        text:"Content is king when it comes to marketing, and we can help you create high-quality content that will engage your audience and drive results."
+                        title:"Telecommunication Services",
+                        text:"Services such as VoIP (voice over IP), SIP (session initiation protocol), video conferencing, and more are provided, with their management and solution, to ensure that they're getting the most out of their telecommunications systems. "
                     },{
                         icon:<AiOutlineMonitor color={activeCard ==4?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"Graphics Design",
-                        text:"Creating a style guide and design templates that you can use for all of your marketing materials. From brochures and business cards to website and social media graphics, we'll make sure your brand looks great. "
+                        text:"Developing a brand style guide, and creating advertising materials that are both eye-catching and effective. We can also create digital graphics for websites, social media, and other online platforms."
                     },{
                         icon:<AiOutlineShoppingCart color={activeCard ==1?"white":"#5758e0"} size="3rem" className="mb-4"/>,
-                        title:"Media Buying",
-                        text:"We can help you reach your target audience through effective media buying. We'll work with you to create a media plan that will target your ideal customers and get the best return on your investment."
+                        title:"Computer Engineering Consulting Services",
+                        text:"Designed to help clients get the most out of their hardware systems. We can provide advice on the design and architecture of new systems, or they can help to optimize existing systems."
                     }
                 ].map((arr,index)=>{
                     const{

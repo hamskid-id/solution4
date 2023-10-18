@@ -13,15 +13,15 @@ export const ContactInfo =()=>{
                     {
                         icon:<AiFillPhone color={activeCard ==0?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"+425 235 712",
-                        text:"Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+                        text:"For more enquiries, you can reach us through "
                     },{
                         icon:<AiOutlineMail color={activeCard ==1?"white":"#5758e0"} size="3rem" className="mb-4"/>,
-                        title:"info@yoursite.com",
-                        text:"Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+                        title:"info@megasprintlimited.com.ng",
+                        text:"OR send us an email "
                     },{
                         icon:<AiOutlineEnvironment color={activeCard ==2?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"Office Street, 123",
-                        text:"Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+                        text:"Our Address "
                     }
                 ].map((arr,index)=>{
                     const{

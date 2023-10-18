@@ -25,11 +25,11 @@ export const CustomerTestimony =()=>{
                         {
                             name:"Marie Jordan",
                             img:"https://mobirise.com/extensions/solutionm4/marketingsolution/assets/images/face1.jpg",
-                            info:"I'm so glad I found Mega Sprint Limited! They helped me revamp my website, and it looks amazing. They were professional, responsive, and they really understood my needs. I highly recommend them to anyone looking for a marketing solution."
+                            info:"I'm so glad I found Mega Sprint Limited! They helped me revamp my website, and it looks amazing. They were professional, responsive, and they really understood my needs. I highly recommend them to anyone looking for a company that can provide top-notch software development and related services Mega Sprint Limited is the perfect choice."
                         },{
                             name:"Ann Brown",
                             img:"https://mobirise.com/extensions/solutionm4/marketingsolution/assets/images/face2.jpg",
-                            info:"I was feeling really overwhelmed by all the different marketing options out there, but Mega Sprint Limited helped me cut through the noise and figure out what would work best for my business. They were patient and took the time to answer all of my questions. I'm very happy with the results so far!"
+                            info:"I was feeling really overwhelmed by all the different IT Comapnies options out there, but Mega Sprint Limited helped me cut through the noise and figure out what would work best for my business. They were patient and took the time to answer all of my questions. I'm very happy with the results so far!"
                         },{
                             name:"Andrew Bill",
                             img:"https://mobirise.com/extensions/solutionm4/marketingsolution/assets/images/face3.jpg",

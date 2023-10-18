@@ -13,7 +13,7 @@ export const WhoWeAre =()=>{
                     />
                     <Text
                         style="c-grey text-lg mb-8"
-                        value="When it comes to marketing, experience counts. We have a team of professionals with years of experience in the industry. We know what works and what doesn't, and we'll use our knowledge to help you achieve your goals. We're also constantly learning and evolving, so we're always up-to-date on the latest marketing trends and best practices."
+                        value="When it comes to the development, design, creation, and distribution of computer software, applications, and related products, Mega Sprint Limited is a trusted leader in the industry. With a team of experienced and talented professionals, the company has the ability to create custom solutions that meet the unique needs of each client."
                     />
                 </div>
                 <div className="flex wrap mt-2">
@@ -25,7 +25,7 @@ export const WhoWeAre =()=>{
                         />
                         <Text
                             style="c-grey text-lg"
-                            value="We'll help you develop short, snappy marketing plans that are easy to execute and deliver results. No fluff, just actionable plans that will get you results."
+                            value="In addition to its technical expertise,Mega Sprint Limited is also committed to quality. All of its products are rigorously tested before being released to the market, ensuring that they meet the highest standards of reliability and performance."
                         />
                     </div>
                 </div>
@@ -38,7 +38,7 @@ export const WhoWeAre =()=>{
                         />
                         <Text
                             style="c-grey text-lg"
-                            value="Sometimes, you need a marketing strategy fast. We can provide you with prompt strategies that are easy to implement and will make an impact. No matter what your time frame is, we'll work with you to create a plan that will get the job done."
+                            value="In addition to its technical expertise and commitment to quality, Mega Sprint Limited also places a strong emphasis on customer service. The company's team of knowledgeable and friendly professionals is always available to answer questions, address concerns, and provide assistance. With its focus on the needs of its clients, the company has earned a reputation for being a trusted and reliable partner."
                         />
                     </div>
                 </div>
