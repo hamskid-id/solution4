@@ -21,7 +21,7 @@ export const Work =()=>{
                     },{
                         icon:<AiOutlineRocket color={activeCard ==2?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"Database Services",
-                        text:", the company's experts work with clients to develop, implement, and manage database systems that meet their specific needs."
+                        text:"The company's experts work with clients to develop, implement, and manage database systems that meet their specific needs."
                     },{
                         icon:<AiOutlineForm color={activeCard ==3?"white":"#5758e0"} size="3rem" className="mb-4"/>,
                         title:"Telecommunication Services",
@@ -61,7 +61,7 @@ export const Work =()=>{
                                     value={title}
                                 />
                                 <Text
-                                    style={`${activeCard ==index?"text-white":"c-grey"} text-center text-lg mb-2`}
+                                    style={`${activeCard ==index?"text-white":"c-grey"} text-justify text-lg mb-2`}
                                     value={text}
                                 />
                                 <div className="w-fit border rounded-full p-2">

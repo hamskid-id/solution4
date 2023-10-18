@@ -118,7 +118,7 @@ export const Features =()=>{
                     data-te-target="#collapseThree"
                     aria-expanded="false"
                     aria-controls="collapseThree">
-                    Computer Engineering Consulting Services
+                    Telecommunication Services
                     <span
                     className="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
                     <svg 
@@ -144,7 +144,48 @@ export const Features =()=>{
                 aria-labelledby="headingThree"
                 data-te-parent="#accordionExample">
                 <div className="px-5 py-4">
-                    The company's "Computer Engineering Consulting Services" are designed to help clients get the most out of their hardware systems. We provide advice on the design and architecture of new systems, or help to optimize existing systems. we assist with the selection of hardware components, and we can also help to troubleshoot and resolve any issues that arise. 
+                The company's "Telecommunication Services" include a range of solutions for voice, data, and video communications. These solutions can be tailored to meet the specific needs of each client, whether they're a small business or a large enterprise. The company can provide services such as VoIP (voice over IP), SIP (session initiation protocol), video conferencing, and more. They can also help clients to implement and manage these solutions, and to ensure that they're getting the most out of their telecommunications systems. 
+                </div>
+                </div>
+            </div>
+            <div
+                className=" mid-dark mb-4">
+                <h2 className="mb-0" id="headingThree">
+                <button
+                    className="group relative flex w-full items-center rounded-none border-0 mid-dark c-grey px-5 py-4 text-left text-base  transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:mid-dark [&:not([data-te-collapse-collapsed])]:c-grey [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:c-grey-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                    type="button"
+                    data-te-collapse-init
+                    data-te-collapse-collapsed
+                    data-te-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree">
+                    Database Services
+                    <span
+                    className="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                    <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        fill="none" 
+                        viewBox="0 0 24 24" 
+                        stroke-width="1.5" 
+                        stroke="currentColor" 
+                        className="w-6 h-6">
+                        <path 
+                            stroke-linecap="round" 
+                            stroke-linejoin="round" 
+                            d="M12 4.5v15m7.5-7.5h-15" 
+                        />
+                    </svg>
+                    </span>
+                </button>
+                </h2>
+                <div
+                id="collapseThree"
+                className="!visible hidden mid-dark c-grey"
+                data-te-collapse-item
+                aria-labelledby="headingThree"
+                data-te-parent="#accordionExample">
+                <div className="px-5 py-4">
+                The "Database Services" is another major feature of the company. In this service, the company's experts work with clients to develop, implement, and manage database systems that meet their specific needs. They can design and build databases from scratch, or they can modify or upgrade existing databases. They can also provide ongoing support and maintenance for the database systems they create. Their goal is to help clients get the most out of their data, and to ensure that their systems are running smoothly and efficiently.
                 </div>
                 </div>
             </div>

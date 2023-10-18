@@ -13,7 +13,7 @@ export const IntroSect =()=>{
                     value="MEGA SPRINT LIMITED"
                 />
                 <Text
-                    style="text-2xl mb-12 c-grey text-center"
+                    style="text-xl mb-12 c-grey text-justify"
                     value="When it comes to the development, design, creation, and distribution of computer software, applications, and related products, Mega Sprint Limited is a trusted leader in the industry. With a team of experienced and talented professionals, the company has the ability to create custom solutions that meet the unique needs of each client."
                 />
                 <div className="flex px-4 py-2 bg-blue cursor-pointer w-fit m-auto">

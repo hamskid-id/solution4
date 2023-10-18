@@ -45,7 +45,7 @@ export const ContactInfo =()=>{
                                 >
                                 {icon}
                                 <Text
-                                    style="text-white text-2xl font-semibold mb-4 text-center"
+                                    style="text-white text-2xl font-semibold mb-4 text-center break-all"
                                     value={title}
                                 />
                                 <Text

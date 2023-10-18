@@ -18,7 +18,7 @@ export const AboutUs =()=>{
                         value="About Us"
                     />
                     <Text
-                        style="c-grey text-lg"
+                        style="c-grey text-lg text-justify"
                         value={`Marketing Solution Agency is  "Your one-stop shop for all your marketing needs." "Elevate your business with our marketing solutions." "Your success is our success.Our team is passionate about helping businesses succeed." "We're dedicated to providing the best possible service." "Our mission is to make marketing simple and effective." Services: "Grow your business with our marketing services." "We'll take your marketing to the next level." "Don't do it alone - let us help you achieve your goals."`}
                     />
                 </div>

@@ -24,7 +24,7 @@ export const WhoWeAre =()=>{
                             value="Ideas & Plans"
                         />
                         <Text
-                            style="c-grey text-lg"
+                            style="c-grey text-lg text-justify"
                             value="In addition to its technical expertise,Mega Sprint Limited is also committed to quality. All of its products are rigorously tested before being released to the market, ensuring that they meet the highest standards of reliability and performance."
                         />
                     </div>
@@ -37,7 +37,7 @@ export const WhoWeAre =()=>{
                             value="Prompt Strategies"
                         />
                         <Text
-                            style="c-grey text-lg"
+                            style="c-grey text-lg text-justify"
                             value="In addition to its technical expertise and commitment to quality, Mega Sprint Limited also places a strong emphasis on customer service. The company's team of knowledgeable and friendly professionals is always available to answer questions, address concerns, and provide assistance. With its focus on the needs of its clients, the company has earned a reputation for being a trusted and reliable partner."
                         />
                     </div>
