@@ -2,6 +2,16 @@
   margin: 0 auto;
   font-family: 'Nunito Sans', sans-serif;
 }
+.collapse-text-container{
+  /* height:3rem; */
+}
+.collapse-text{
+  /* display: -webkit-box;  */
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 3; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
 .mid-dark{
   background: #191919;
 }

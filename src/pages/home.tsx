@@ -28,7 +28,9 @@ export const Home=()=>{
                 contactref={contactref}
                 pricingref={pricingref}
             />
-            <IntroSect/>
+            <div>
+                <IntroSect featuresref={featuresref}/>
+            </div>
             <Work/>
             <div ref={aboutRef}>
                 <AboutUs/>

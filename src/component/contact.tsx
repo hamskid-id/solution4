@@ -4,9 +4,9 @@ import { toast } from 'react-hot-toast';
 import {useState} from 'react';
 
 export const Contact =()=>{
-    const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID;
-    const templateId  = process.env.NEXT_PUBLIC_CONTACT_FORM_TEMPLATE_ID;
-    const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
+    const serviceId = process?.env.NEXT_PUBLIC_SERVICE_ID;
+    const templateId  = process?.env.NEXT_PUBLIC_CONTACT_FORM_TEMPLATE_ID;
+    const publicKey = process?.env.NEXT_PUBLIC_PUBLIC_KEY;
     const[
         loading, setLoading
     ]=useState<boolean>(false)

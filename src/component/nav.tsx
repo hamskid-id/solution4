@@ -15,8 +15,7 @@ interface refProps {
 export const Nav =({
     aboutRef,
     featuresref,
-    contactref,
-    pricingref
+    contactref
 }:refProps)=>{
     const navRef = useRef<HTMLDivElement>(null);
     return(
@@ -63,17 +62,6 @@ export const Nav =({
                     <div> 
                         <Text
                             style="text-lg sm:mb-3 xs:mb-3 xxs:mb-3 xl:mb-0 lg:mb-0 md:mb-0 text-dark me-1"
-                            value="Pricing"
-                            clickFunc={()=>{
-                                if(pricingref.current){
-                                    pricingref.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
-                                }
-                            }}
-                        />
-                    </div>
-                    <div> 
-                        <Text
-                            style="text-lg sm:mb-3 xs:mb-3 xxs:mb-3 xl:mb-0 lg:mb-0 md:mb-0 text-dark me-1"
                             value="Contacts"
                             clickFunc={()=>{
                                 if(contactref.current){
@@ -94,7 +82,7 @@ export const Nav =({
                         </div>
                     </div>
                 </div>
-                <div className="flex lg:justify-start xl:justify-end md:justify-start sm:justify-start xs:justify-start xxs:justify-start xxs:justify-start lg:items-start xl:items-center md:items-start xs:items-start sm:items-start xxs:items-start lg:flex-row xl:flex-row md:flex-row sm:flex-col xs:flex-col xxs:flex-col xl:w-2/6 lg:w-full md:w-full sm:w-full xs:w-full xxs:w-full">
+                {/* <div className="flex lg:justify-start xl:justify-end md:justify-start sm:justify-start xs:justify-start xxs:justify-start xxs:justify-start lg:items-start xl:items-center md:items-start xs:items-start sm:items-start xxs:items-start lg:flex-row xl:flex-row md:flex-row sm:flex-col xs:flex-col xxs:flex-col xl:w-2/6 lg:w-full md:w-full sm:w-full xs:w-full xxs:w-full">
                     <div className="me-4 sm:my-2 xs:my-2 xxs:my-2 xl:mb-0 lg:mb-0 md:mb-0">
                         <div className="flex items-center border px-4 py-2 border-blue cursor-pointer">
                             <div className="me-2"><FaRocketchat color="black"/></div>
@@ -109,7 +97,7 @@ export const Nav =({
                             />
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
