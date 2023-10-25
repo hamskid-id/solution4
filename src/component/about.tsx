@@ -19,7 +19,7 @@ export const AboutUs =()=>{
                     />
                     <Text
                         style="c-grey text-lg text-justify"
-                        value={`Marketing Solution Agency is  "Your one-stop shop for all your marketing needs." "Elevate your business with our marketing solutions." "Your success is our success.Our team is passionate about helping businesses succeed." "We're dedicated to providing the best possible service." "Our mission is to make marketing simple and effective." Services: "Grow your business with our marketing services." "We'll take your marketing to the next level." "Don't do it alone - let us help you achieve your goals."`}
+                        value="Mega Sprint Limited is a trusted leader in the industry. With a team of experienced and talented professionals, the company has the ability to create custom solutions that meet the unique needs of each client."
                     />
                 </div>
             </div>
