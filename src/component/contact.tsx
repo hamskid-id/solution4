@@ -1,6 +1,6 @@
 import { Text } from "./text"
-import emailjs from '@emailjs/browser';
-import { toast } from 'react-hot-toast';
+// import emailjs from '@emailjs/browser';
+// import { toast } from 'react-hot-toast';
 import {useState} from 'react';
 
 export const Contact =()=>{
