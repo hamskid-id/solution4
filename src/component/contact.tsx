@@ -4,49 +4,50 @@ import { toast } from 'react-hot-toast';
 import {useState} from 'react';
 
 export const Contact =()=>{
-    const serviceId = process?.env.NEXT_PUBLIC_SERVICE_ID;
-    const templateId  = process?.env.NEXT_PUBLIC_CONTACT_FORM_TEMPLATE_ID;
-    const publicKey = process?.env.NEXT_PUBLIC_PUBLIC_KEY;
+    // const serviceId = process?.env.NEXT_PUBLIC_SERVICE_ID;
+    // const templateId  = process?.env.NEXT_PUBLIC_CONTACT_FORM_TEMPLATE_ID;
+    // const publicKey = process?.env.NEXT_PUBLIC_PUBLIC_KEY;
     const[
         loading, setLoading
     ]=useState<boolean>(false)
 
-    const handleSubmit =(e:React.SyntheticEvent)=>{
-        e.preventDefault();
-        const target = e.target as typeof e.target & {
-            email: { value: string };
-            tel: { value: string };
-            name: { value: string };
-        };
-        const email = target.email.value; // typechecks!
-        const tel = target.tel.value; // typechecks!
-        const name = target.name.value; // typechecks!
+    // const handleSubmit =(e:React.SyntheticEvent)=>{
+    //     e.preventDefault();
+    //     const target = e.target as typeof e.target & {
+    //         email: { value: string };
+    //         tel: { value: string };
+    //         name: { value: string };
+    //     };
+    //     const email = target.email.value; // typechecks!
+    //     const tel = target.tel.value; // typechecks!
+    //     const name = target.name.value; // typechecks!
 
-        if(serviceId &&
-            templateId
-        ){
-        setLoading(true)
-        emailjs
-        .send(
-            serviceId,
-            templateId,
-            {
-            name: name,
-            email: email,
-            phone_number: tel
-            },
-            publicKey
-        )
-        .then(() => {
-            setLoading(false)
-            toast.success('Successfully sent');
-        })
-        .catch(() => {
-            setLoading(false)
-            toast.error('Something went wrong. Try again')
-        });
-        }
-    } ;
+    //     if(serviceId &&
+    //         templateId
+    //     ){
+    //     setLoading(true)
+    //     emailjs
+    //     .send(
+    //         serviceId,
+    //         templateId,
+    //         {
+    //         name: name,
+    //         email: email,
+    //         phone_number: tel
+    //         },
+    //         publicKey
+    //     )
+    //     .then(() => {
+    //         setLoading(false)
+    //         toast.success('Successfully sent');
+    //     })
+    //     .catch(() => {
+    //         setLoading(false)
+    //         toast.error('Something went wrong. Try again')
+    //     });
+    //     }
+    // } ;
+
     return(
         <div className=" lg:px-20 xl:px-20 md:px-20 sm:px-20 xs:px-4 xxs:px-4 xxxs:px-4  py-20 grid lg:grid-cols-2 xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 xxs:grid-cols-1 gap-8 m-auto">
             <div className="flex flex-col items-start lg:order-first md:order-first xl:order-first xs:order-last xxs:order-last xxxs:order-last">
@@ -63,7 +64,7 @@ export const Contact =()=>{
                 </div>
                 <form 
                     className="w-full"
-                    onSubmit={(e)=>handleSubmit(e)}
+                    onSubmit={(e)=>e.preventDefault()}
                 >
                     <div 
                         className="relative mb-3" 
