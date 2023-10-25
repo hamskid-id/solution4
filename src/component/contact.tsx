@@ -8,7 +8,7 @@ export const Contact =()=>{
     // const templateId  = process?.env.NEXT_PUBLIC_CONTACT_FORM_TEMPLATE_ID;
     // const publicKey = process?.env.NEXT_PUBLIC_PUBLIC_KEY;
     const[
-        loading, setLoading
+        loading
     ]=useState<boolean>(false)
 
     // const handleSubmit =(e:React.SyntheticEvent)=>{
