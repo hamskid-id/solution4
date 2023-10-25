@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { Text } from "./text"
 import { AiOutlineAlignRight } from "react-icons/ai"
-import {FaRocketchat} from "react-icons/fa";
 import { AiOutlineSkype ,AiOutlineTwitter,AiOutlineFacebook} from "react-icons/ai";
 import navBrand from "../assets/megaLogo.jfif"
 
