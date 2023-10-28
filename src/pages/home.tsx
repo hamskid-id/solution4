@@ -1,14 +1,14 @@
 import { AboutUs } from "../component/about"
 import { Contact } from "../component/contact"
 import { ContactInfo } from "../component/contactInfo"
-import { CustomerTestimony } from "../component/customer"
+// import { CustomerTestimony } from "../component/customer"
 import { Features } from "../component/features"
 import { Footer } from "../component/footer"
 import { IntroSect } from "../component/intro"
 import { Map } from "../component/map"
 import { Nav } from "../component/nav"
-import { Portfolio } from "../component/portfolio"
-import { Video } from "../component/video"
+// import { Portfolio } from "../component/portfolio"
+// import { Video } from "../component/video"
 import { WhoWeAre } from "../component/who we are"
 import { Work } from "../component/work"
 import {useRef} from "react"
@@ -41,9 +41,9 @@ export const Home=()=>{
             <div ref={featuresref}>
                 <Features/>
             </div>
-            <Portfolio/>
+            {/* <Portfolio/>
             <Video/>
-            <CustomerTestimony/>
+            <CustomerTestimony/> */}
             <Contact
             />
             <Map/>
