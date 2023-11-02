@@ -19,7 +19,8 @@ export const AboutUs =()=>{
                     />
                     <Text
                         style="c-grey text-lg text-justify"
-                        value="Mega Sprint Limited is a trusted leader in the industry. With a team of experienced and talented professionals, the company has the ability to create custom solutions that meet the unique needs of each client."
+                        value="Mega Sprint Limited is an IT company that provides a range of services, including web development, software development, and IT consulting. The company was founded in 2022 to provide high-quality, reliable IT services to businesses and organizations around the world.
+                               Mega Sprint Limited is committed to providing innovative, cutting-edge IT solutions that help businesses and organizations reach their full potential. The company believes in the power of technology to transform the way we live and work, and is dedicated to making this technology accessible and user-friendly. It values integrity, innovation, and collaboration, and strives to build long-term relationships with its clients."
                     />
                 </div>
             </div>
