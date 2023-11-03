@@ -12,7 +12,7 @@ export const ContactInfo =()=>{
                 [
                     {
                         icon:<AiFillPhone color={activeCard ==0?"white":"#5758e0"} size="3rem" className="mb-4"/>,
-                        title:"+425 235 712",
+                        title:"+2348166939205",
                         text:"For more enquiries, you can reach us through "
                     },{
                         icon:<AiOutlineMail color={activeCard ==1?"white":"#5758e0"} size="3rem" className="mb-4"/>,
@@ -20,7 +20,7 @@ export const ContactInfo =()=>{
                         text:"OR send us an email "
                     },{
                         icon:<AiOutlineEnvironment color={activeCard ==2?"white":"#5758e0"} size="3rem" className="mb-4"/>,
-                        title:"Office Street, 123",
+                        title:"6, ORE-OFE STREET, AKINBO PHASE 2, AKUTE, OGUN STATE, NIGERIA.",
                         text:"Our Address "
                     }
                 ].map((arr,index)=>{

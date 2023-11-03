@@ -6,7 +6,7 @@ export const Map =()=>{
     return(
         <div className="h-[50vh] w-full">
             <MapContainer 
-                center={[51.505, -0.09]} 
+                center={[6.684785721868957, 3.370807995598992]} 
                     zoom={13} 
                     scrollWheelZoom={false}
                     style={{ width: "100%", height: "100%" }}
@@ -15,9 +15,9 @@ export const Map =()=>{
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                <Marker position={[51.505, -0.09]}>
+                <Marker position={[6.684785721868957, 3.370807995598992]}>
                     <Popup>
-                    A pretty CSS3 popup. <br /> Easily customizable.
+                    6, ORE-OFE STREET, AKINBO PHASE 2, AKUTE, OGUN STATE, NIGERIA.
                     </Popup>
                 </Marker>
                 </MapContainer>
